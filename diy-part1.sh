@@ -21,7 +21,7 @@ fi
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git luci-theme-argon-18.06
 # clone openClash
 cd /workdir
-https://github.com/vernesong/OpenClash.git OpenClash
+git clone https://github.com/vernesong/OpenClash.git OpenClash
 cp -r /workdir/OpenClash/luci-app-openclash /workdir/openwrt/package
 
 # Add a feed source
